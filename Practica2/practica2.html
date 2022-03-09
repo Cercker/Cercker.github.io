@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <title>Práctica JavaScript</title>
+</head>
+<body background="descarga.jpg" width="1000" height="1000">
+    <h1 style="color: red">Práctica JavaScript</h1><hr>
+    
+    <div style="color: rgb(250, 0, 0);" id="div1" onmouseover="change()" onmouseout="comeback()">
+        hola, soy el texto del div 1, cambiame de color
+    </div><br>
+
+    <h1 ><button onclick="change()">otro color</button></h1>
+
+    <h1 style="color: red">Productos</h1><hr>
+
+    <h3 style="color: green">Producto 1 <input type="number" value="0" id="p1" onchange="refreshall(document.getElementById('p1').value)"></h3>
+    <h3 style="color: blue ">Producto 2 <input type="number" value="0" id="p2" onchange="refreshall(document.getElementById('p2').value)"></h3>
+    <h3 style="color: pink">Producto 3 <input type="number" value="0" id="p3" onchange="refreshall(document.getElementById('p3').value)"></h3>
+    <h3 style="color: yellow">Producto 4 <input type="number" value="0" id="p4" onchange="refreshall(document.getElementById('p4').value)"></h3>
+
+    <h3 style="color: gold">Total: <input type="number" readonly value="0" id="total"> </h3>
+    
+</body>
+</html>

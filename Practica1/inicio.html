@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ayuda</title>
+	<link rel="shortcut icon" href="Jquerymobile/images/bitcoin.png">
+	<link rel="stylesheet" href="Jquerymobile/css/themes/my-custom-theme.css" />
+  	<link rel="stylesheet" href="Jquerymobile/css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="Jquerymobile/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="Jquerymobile/themes/DarkPurple.css">
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body align="center">
+
+	<div data-role="page" id="inicio" data-theme="a">
+		<div data-role="header">
+			<h2>Inicio</h2><br>
+			<p>hola, bitcpoins.</p>
+			<img src="amongus.png" width="40%" alt="">
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li>
+						<a href="#" class="ui-btn-desactive" data-icon="grid">Inicio</a>
+					</li>
+					<li>
+						<a href="#productos" data-icon="star">productos</a>
+					</li>
+					<li>
+						<a href="#carrito" data-icon="gear">Carrito</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data_role="page" id="productos" data-theme="a">
+		<div data-role="header">
+			<h1>Producto</h1>
+		</div>
+		<div class="ui-content" role="main">
+			<h2>Listado de productos</h2>
+			<ol data-role="listview">
+				<li>Bitcoin</li>
+				<li>Ethereum</li>
+				<li>Polkadot</li>
+				<li>Cardano</li>
+			</ol>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li>
+						<a href="#inicio" data-icon="grid">Inicio</a>
+					</li>
+					<li>
+						<a href="#" class="ui-btn-active" data-icon="star">productos</a>
+					</li>
+					<li>
+						<a href="#carrito" data-icon="gear">Carrito</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+	<div data_role="page" id="carrito" data-theme="a">
+		<div data-role="header">
+			<h1>Carrito</h1>
+		</div>
+		<div class="ui-content" role="main">
+			<h2>Productos en carrito</h2>
+			<ul data-role="listview" data-inset="true">
+				
+				<li>
+					<a href="#"><img src="Jquerymobile/img/Bitcoin.png" alt=""><h3>Bitcoin</h3><p>50 USD</p></a>
+				</li>
+				<li>
+					<a href="#"><img src="Jquerymobile/img/Ethereum.png" alt=""><h3>Ethereum</h3><p>5 USD</p></a>
+				</li>
+				<li>
+					<a href="#"><img src="Jquerymobile/img/Polkadot.jpg" alt=""><h3>Polkadot</h3><p>18.20 USD</p></a>
+				</li>
+				<li>
+					<a href="#"><img src="Jquerymobile/img/Cardano.jpg" alt=""><h3>Cardano</h3><p>1.20 USD</p></a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li>
+						<a href="#inicio" data-icon="grid">Inicio</a>
+					</li>
+					<li>
+						<a href="#productos" data-icon="star">productos</a>
+					</li>
+					<li>
+						<a href="#" class="ui-btn-active" data-icon="gear">Carrito</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
